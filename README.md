@@ -82,7 +82,7 @@ Each div with class `work__box` represents a project, replace the contents of th
         <a href="#" class="link__text">
         Visit Site <span>&rarr;</span>
         </a> 
-        <a href="https://github.com/rmuia09/richardmuiaportfolio" target="_blank">
+        <a href="https://github.com/nisarhassan12/portfolio" target="_blank">
         <img src="./images/github.svg" class="work__code" alt="GitHub">
         </a>
     </div>
@@ -200,17 +200,17 @@ For changing the screenshot:
                 </a>
             </li>
             <li class="footer__social-link-item">
-                <a href="https://github.com/rmuia09/">
+                <a href="https://github.com/nisarhassan12/">
                     <img src="./images/github.svg" class="footer__social-image" alt="Github">
                 </a>
             </li>
             <li class="footer__social-link-item">
-                <a href="https://codepen.io/Richard-Muia">
+                <a href="https://codepen.io/nisar_hassan">
                     <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
                 </a>
             </li>
             <li class="footer__social-link-item">
-                <a href="https://www.linkedin.com/in/richard-muia-729b755a/">
+                <a href="https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
                     <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
                 </a>
             </li>
