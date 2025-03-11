@@ -26,12 +26,15 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Companies</a></li>
+          <li class="nav__item"><a href="#companies" class="nav__link">Companies</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
           </li>
         </ul>
       </nav>
@@ -149,7 +152,7 @@
 
     <!-- ***** Clients ***** -->
 
-    <section class="client" id="clients">
+    <section class="client" id="companies">
       <div class="row">
         <h2>Companies</h2>
         <div class="client__logos">
@@ -172,12 +175,12 @@
         <div class="about__content">
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              A bug hunter extraordinaire!.
-              A believer that Quality guarantees client satisfaction.
-              A great story teller.
-              A leader, mentor and follower!.
-            </p>
+            <li>A bug hunter extraordinaire!.</li>
+            <li>A believer that Quality guarantees client satisfaction.</li>
+            <li>A great story teller.</li>
+            <li>A leader, mentor and follower!.</li>
+            
+
             <!-- Provide a link to your resume -->
             <a href="#" class="btn">My Resume</a>
           </div>
@@ -189,6 +192,121 @@
         </div>
       </div>
     </section>
+
+
+  <!-- Add this blog section before the closing </body> tag -->
+<section id="blog" class="blog-section">
+  <div class="container">
+      <h2>My QA Testing Insights</h2>
+      
+      <!-- Quick Navigation -->
+      <div class="blog-nav">
+          <a href="#challenges">Common Challenges</a>
+          <a href="#best-practices">Best Practices</a>
+          <a href="#skills">Skill Assessment</a>
+      </div>
+
+      <!-- Challenges Section -->
+      <article id="challenges" class="blog-card">
+          <h3>Top 3 Test Automation Challenges I have faced</h3>
+          <div class="challenge-item">
+              <h4>1. Stakeholder Buyin 🗄️</h4>
+              <p>Before framework adoption, we had some convincing to do for the engineering team to understand the pros of 
+                building an automation suite an integrating it to the CI/CD pipeline. 
+                By outlining the advantages of testing early and often 
+                and faster feedback and time to market we were able to champion for adoption and usage. This was accomplished by doing research on the best tooling options and by delivering a presentation of the preferred option in an engineering architectural session.</p>
+          </div>
+          <div class="challenge-item">
+              <h4>2. Flaky Tests 🏗️</h4>
+              <p>A major challenge i have encountered was test flakiness in Cypress due to asynchronous DOM operations, which hindered timely feature releases and impacted product quality.
+                We addressed this by adopting best practices and replacing fragile selectors with robust data-cy attributes. This experience honed my adaptability and improved my testing approach.
+                We proactively mitigated test flakiness by using Cypress's retry mechanism. This mechanism automatically retries failed tests, enhancing reliability and boosting confidence in our testing process.
+                To optimize wait times, we shifted from implicit to explicit waits. Explicit waits proved to be more precise and efficient, pausing execution until specific conditions are met. </p>
+          </div>
+          <div class="challenge-item">
+              <h4>3. Cross-platform Testing 🔄</h4>
+              <p>Last but not least, my experience with platform testing has brought to the fore a challenge of verification
+                across devices and browsers and the risk of alienating large customer bases and eventually the baseline in terms of revenue.
+                 Ensuring consistent behavior across these spheres proves an uphill task if done manually. Therefore adoption of automated tools for example Firebase and Browserstack has been helpful.
+                 I have seen the benefits of using data as well to narrow down to most used devices/browsers to speed up test execution and reporting.</p>
+          </div>
+      </article>
+
+      <!-- Best Practices Section -->
+      <article id="best-practices" class="blog-card">
+          <h3>Framework Design Best Practices for non-tech People</h3>
+          <div class="practices-grid">
+              <div class="practice-item">
+                  <span class="icon">📝</span>
+                  <h4>Simplicity</h4>
+                  <p>A no-code tool is a great option to allow users to manage use cases for example
+                     adopting a record and playback tool enables non-technical stakeholders to execute the user flows easily for example by using Katalon Studio.
+                     I have witnessed product managers being empowered to smoothly coordinate user acceptance testing sessions.</p>
+              </div>
+              <div class="practice-item">
+                  <span class="icon">🔧</span>
+                  <h4>Behaviour Driven Development Philosophy </h4>
+                  <p>Use of  given, when, and then format when writing user acceptance criteria can allow less experienced people 
+                    to test using a natural language making it easier and faster for Product, dev and QA teams to collaborate on features.
+                    I have seen quality metrics improve by using this development/testing methodology. </p>
+              </div>
+              <div class="practice-item">
+                  <span class="icon">👥</span>
+                  <h4>Knowledge Management</h4>
+                  <p>Adopting a tool that is well documented and has clear guidelines on setup, usage and troubleshooting is an excellent way for
+                    non-technical users to onboard and fastrack the testing process. My experience with stable open source tools that have an active support community has been very beneficial in championing for usage among engineering stakeholders.
+                     This has increased uptake and helped demystify the technical aspects of developement and testing. </p>
+              </div>
+          </div>
+      </article>
+
+      <!-- Skills Assessment Section -->
+      <article id="skills" class="blog-card">
+          <h3>My Expertise</h3>
+          <div class="skills-grid">
+              <div class="skill-item">
+                  <div class="skill-name">Test Automation Tools - Cypress,k6</div>
+                  <div class="skill-bar">
+                      <div class="skill-level" style="width: 100%">4/5</div>
+                  </div>
+              </div>
+              <div class="skill-item">
+                  <div class="skill-name">API Testing - Postman </div>
+                  <div class="skill-bar">
+                      <div class="skill-level" style="width: 80%">5/5</div>
+                  </div>
+              </div>
+              <div class="skill-item">
+                  <div class="skill-name">Programming Concepts - Javascript</div>
+                  <div class="skill-bar">
+                      <div class="skill-level" style="width: 60%">3/5</div>
+                  </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">CI/CD Pipelines - Github actions, Jenkins</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%">4/5</div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-name"> Database Testing, Security Testing</div>
+              <div class="skill-bar">
+                  <div class="skill-level" style="width: 60%">5/5</div>
+              </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name"> Containerization and Virtualization - Docker, Kubernetes</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 60%">2/5</div>
+            </div>
+        </div>
+          </div>
+      </article>
+  </div>
+</section>
+
   </main>
 
   <!-- ***** Contact ***** -->
@@ -257,6 +375,8 @@
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
   <script src="./index.js"></script>
-</body>
 
+</body>
 </html>
+
+
